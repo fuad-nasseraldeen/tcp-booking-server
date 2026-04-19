@@ -31,6 +31,12 @@ The project has four files:
 - `README.md`
   - Documentation and usage examples
 
+## Features
+- Multi-client TCP server
+- Concurrent booking handling
+- Synchronization to prevent double booking
+- Stress testing with concurrent clients
+
 ## Concurrency Handling
 
 - The server creates a new thread for each client connection (`threading.Thread`).
